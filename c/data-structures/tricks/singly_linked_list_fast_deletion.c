@@ -1,4 +1,3 @@
-
 /*
 - This trick allows us to delete a node from a singly list in O(1) time when the node is NOT a tail
 - This differs from delete_after where we know the predecessor node
