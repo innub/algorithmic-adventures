@@ -19,6 +19,7 @@ void fast_delete(Node* node) {
 }
 
 void test_fast_delete() {
+    print_test_func_name();
     int arr[] = {1, 2, 3};
 
     Node* head = create_nodes_from_array(arr, sizeof(arr) / sizeof(*arr));
@@ -30,6 +31,7 @@ void test_fast_delete() {
     assert(head->next->next == NULL);
 
     free_all(head);
+    passed();
 }
 
 int main(int argc, char** argv) {
